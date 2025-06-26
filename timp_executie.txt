@@ -1,0 +1,2 @@
+Timp criptare: 0.001426 secunde
+Timp decriptare: 0.004906 secunde
