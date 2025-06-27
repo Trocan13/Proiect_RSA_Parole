@@ -1,0 +1,69 @@
+  Autentificarea cu parole securizate folosind algoritmul RSA
+
+  Student:   Liviu UDREA  
+  Program:   Informatică ID, Anul 2025
+  Facultatea de Automatica si Calculatoare  
+  Universitatea Politehnica Timișoara
+
+
+   1. Adresa repository-ului:
+
+   [https://github.com/Trocan13/Proiect_RSA_Parole](https://github.com/Trocan13/Proiect_RSA_Parole)
+
+   2. Livrabilele proiectului
+
+- `rsa_app.py` – Scriptul principal Python pentru criptarea și decriptarea parolei folosind RSA.
+- `parola.txt` – Fișier text cu parola ce urmează a fi criptată.
+- `cheie_privata.pem` – Cheia privată RSA generată de aplicație.
+- `cheie_publica.pem` – Cheia publică RSA generată de aplicație.
+- `parola_criptata.bin` – Parola criptată, salvată în format binar.
+- `parola_decriptata.txt` – Parola după decriptare.
+- `timp_executie.txt` – Timpul de execuție pentru operațiunile de criptare și decriptare.
+- (Opțional) `README.md` – Prezentul fișier cu detalii despre proiect.
+
+   3. Pași de instalare și rulare a aplicației
+
+    a) Instalare Python
+
+1. Descarcă și instalează Python (versiunea 3.8 sau mai nouă) de pe [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. După instalare, verifică în Command Prompt (CMD) cu:
+python --version
+
+    b) Instalare bibliotecă PyCryptodome
+
+1. Deschide CMD (în folderul proiectului sau oriunde).
+2. Rulează comanda:
+pip install pycryptodome
+
+    c) Pregătire fișiere
+
+1. Creează un fișier `parola.txt` și scrie în el o parolă pentru test.
+
+    d) Rulare aplicație
+
+1. Neasiguram că toate fișierele proiectului sunt în același director.
+2. Executam în CMD comanda:
+python rsa_app.py
+
+
+    e) Rezultate generate
+
+- Vor fi create fișierele:
+- `cheie_privata.pem` (cheia privată)
+- `cheie_publica.pem` (cheia publică)
+- `parola_criptata.bin` (parola criptată)
+- `parola_decriptata.txt` (parola decriptată)
+- `timp_executie.txt` (timpii de execuție)
+
+
+   4. Alte mențiuni
+
+- Codul sursă NU conține fișiere binare compilate.
+- Toate instrucțiunile au fost testate pe Windows 10 și Python 3.13.5, folosind Visual Studio Code.
+- Pentru orice întrebare, vezi adresa repository-ului de mai sus.
+
+
+**Nume fișier livrat la încărcare pe platformă:**  
+`Udrea_Liviu_Aplicatie_Practica_INFOID_Licenta`
+
